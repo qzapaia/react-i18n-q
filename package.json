@@ -1,11 +1,11 @@
 {
-  "name": "react-translations",
-  "version": "1.0.0",
+  "name": "react-i18n-q",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack -p",
-    "publish": "npm run build && cp package.json dist/ && cp README.md dist/ && npm publish dist"
+    "pub": "npm run build && cp package.json dist/ && cp README.md dist/ && npm publish dist"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
