@@ -1,5 +1,3 @@
-#Use
-
 ```javascript
 import React from 'react';
 import Translations, {setTranslations,setLocale} from 'react-translations';
